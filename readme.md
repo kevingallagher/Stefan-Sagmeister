@@ -1,3 +1,3 @@
 Stefan Sagmeister Essay
 =======================
-+ [version 1](https://kevingallagher.github.io/Stefan-Sagmeister/essay.html)
++ [version 1](https://github.com/kevingallagher/Stefan-Sagmeister/essay.html)
