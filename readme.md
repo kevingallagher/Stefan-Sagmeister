@@ -2,3 +2,5 @@ Stefan Sagmeister Essay
 =======================
 + [version 1](https://kevingallagher.github.io/Stefan-Sagmeister/essay.html)- HTML
 + [version 2](https://kevingallagher.github.io/Stefan-Sagmeister/essay_2.html)- Starting CSS
++ [version 3](https://kevingallagher.github.io/Stefan-Sagmeister/essay_3.html)- images
++ 
