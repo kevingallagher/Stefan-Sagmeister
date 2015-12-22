@@ -94,7 +94,11 @@ nav { position: fixed;
     width:100%;
     background-color: black;
     padding: 2em;
-        color:#FBCD13
+        color:#FBCD13;
+-webkit-transition: all 0.3 ease-in-out ;  
+-moz-transition: all 0.3 ease-in-out  ;    
+-o-transition: all 0.3 ease-in-out;
+transition: all 0.3 ease-in-out
 
    
       }
