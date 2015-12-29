@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="40px" height="36px" viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Artboard-1" sketch:type="MSArtboardGroup">
-            <path d="M9,12.0181599 C12.1192272,0.85343083 15.2936591,1.94937755 20.4204102,11.589449" id="Path-1" stroke="#F8E71C" sketch:type="MSShapeGroup"></path>
-            <path d="M14.4331055,26.2797852 C14.4331055,9.87744024 15.9570002,16.1389945 13,7" id="Path-2" stroke="#F8E81C" sketch:type="MSShapeGroup"></path>
+            <path d="M16,16.0181599 C19.1192272,4.85343083 22.2936591,5.94937755 27.4204102,15.589449" id="Path-1" stroke="#F8E71C" stroke-width="3" sketch:type="MSShapeGroup"></path>
+            <path d="M22.4331055,30.2797852 C22.4331055,13.8774402 23.9570002,20.1389945 21,11" id="Path-2" stroke="#F8E81C" stroke-width="2.5" sketch:type="MSShapeGroup"></path>
+            <path d="M36.3538945,9.45612578 C22.2385667,-6.50476094 -1.85116067,5.02676413 8.51991013,26.4019266 C12.0536073,33.6850077 39.221377,39.9759942 36.8319218,25.4898172" id="Path-3" stroke="#99949A" stroke-width="2" opacity="0.70755597" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
