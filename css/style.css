@@ -10,9 +10,6 @@ line-height:1em;
 -----------------------------------------
 body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
         color: #666666;
-background:
-    url( ../images/stylefart.png);
-     background-repeat: repeat-y;  
   background-color: #333333 ;
      }
 article {   width: 75%; 
@@ -109,21 +106,39 @@ nav ul{ font-size: 1em;
              text-transform: uppercase;
     
              letter-spacing: 1px;
-    text-decoration-color: black;
+   
        }
 
 nav ul li {
     
     display: inline;
-   
+   padding: 2em
     }
+a {
+    color: #FBCD13;
+    font-size: .75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ a:hover { color: white;
+border-bottom: none}      
 /*------------------------images----------------------------*/
 img {
        max-width:100%;
        padding: 1em;       
        display: block;
        margin: 1em auto
-
+           
+.logo{position: fixed;
+    
+top: 0;
+left: 0;
+width: 50%;
+    padding:0;
+    margin:0;
+    }
+    
 .rslides {
   position: relative;
   list-style: none;
@@ -155,6 +170,8 @@ img {
   width: 80%;
   border: 0;
   }
+
+
 *------------------ TABLET ----------------------*/
 @media (max-width: 50em) {
     
