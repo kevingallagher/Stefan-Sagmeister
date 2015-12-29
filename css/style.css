@@ -8,13 +8,19 @@ line-height:1em;
 
 
 -----------------------------------------
-body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
-        color: #666666;
-  background-color: #333333 ;
-     background-image: url("images/sagmeisterandwalsh.png");
-    background-repeat: no-repeat;
-    background-position: left top;}
-article {   width: 75%; 
+body { font-family: 'Ubuntu','Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
+   }
+body {
+    background-image: url(../images/stylefart.png);
+
+    background-repeat: repeat-x
+repeat-y;
+   
+}
+
+
+article {   
+    width: 75%; 
     max-width: 760px;
     margin: 20px auto;
 } 
@@ -26,10 +32,12 @@ article {   width: 75%;
                text-align: right}
           
           h1 {font-size: 3.350em;
-padding: 2em 0 1em 0}
+padding: 2em 0 1em 0;
+text-align: center}
 
           h2 {font-size: 2.25em;
-              padding: 2em 0 1em 0} 
+              padding: 2em 0 1em 0;
+text-align: center} 
 
           h3 {font-size: 1.5em} 
 
@@ -44,25 +52,30 @@ header h2 {padding: 1em 0 1em 0;
     
         }
 
-p {padding: 1.5em 0 1em 0;
+p {color: black;
+    padding: 1.25em;
+    margin: 1.5em;
  font-size:1.3em;
-line-height: 1.25em}
+line-height: 1.25em;
+border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+-moz-border-radious: 1em 4em 1em 4em / 2em 1em 2em 1em;
+-webkit-border-radius: 1em 4em 1em 4em /2em 1em 2em 1em;
+background-color: rgba(128, 128, 128,0.9);
+
+boreder: solid #333; 
+color: black}
 
           
     .intro {font-size: 1.25em;
         line-height: 1.25em;
         } 
-.blockquote1 {position: center;
-width:400px;
-fontsize;130%;
-padding:1em;
-}
+
  
 
 blockquote p {
-    
+    display: block;
     border:4px ;
-    padding: 0 ;
+    padding: 1.5em ;
     font-size: 1.75em;
     line-height:1.25em;
  
@@ -80,7 +93,7 @@ blockquote cite {
 }
 
 blockquote p {
-            color: #999;
+            color: white;
             hanging-punctuation: first;
             text-indent: -0.5em;
 }
@@ -92,14 +105,17 @@ hr {overflow:auto;
     width:140%;
     margin: 0px -135px 20px;
     border: 0;
-    border-top: 5px solid black;
+    border-top: 5px solid rgba(128, 128, 128, 0.7);
 }
 
-footer a {opacity: 1.0;
+.hr-top {padding: 0em;
+margin:0em}
+
+a {opacity: 0.8;
 opacity: 1;
-  transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;}
+  transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;}
   /*---------------------------------NAV--------------------------------------*/
 
 
@@ -110,12 +126,7 @@ nav { position: fixed;
     background-color: black;
     padding: 20px;
         color:#FBCD13;
--webkit-transition: all 0.3 ease-in-out ;  
--moz-transition: all 0.3 ease-in-out  ;    
--o-transition: all 0.3 ease-in-out;
-transition: all 0.3 ease-in-out
-
-   
+    
       }
    
         
@@ -133,28 +144,31 @@ nav ul li {
    padding: .25em
     }
 a {
-    color: #FBCD13;
+    color: white;
     font-size: .75em;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
  }
- a:hover { color: white;
-border-bottom: none}      
+ a:hover { color: #FBCD13;
+     cursor: pointer;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+border-bottom: none}   
+
+img{
+    -webkit-transform: scale 1.5 ease-in-out;   
+-moz-transition: scale 1.5 ease-in-out;      
+-o-transition: scale 1.5 ease-in-out}
 /*------------------------images----------------------------*/
 img {
        max-width:100%;
        padding: 1em;       
        display: block;
-       margin: 1em auto
-           
-.logo{position: fixed;   
-top: 0;
-left: 0;
-width: 50%;
-    padding:0;
-    margin:0;
-    }
+       margin: 1em auto;
+}
     
 .rslides {
   position: relative;
