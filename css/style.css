@@ -8,7 +8,7 @@ line-height:1em;
 
 
 -----------------------------------------
-body { font-family: 'Ubuntu','Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
+body { font-family: 'Ubuntu', sans-serif;
    }
 body {
     background-image: url(../images/stylefart.png);
@@ -32,20 +32,25 @@ article {
                text-align: right;
 }
           
-          h1 {font-size: 3.350em;
+          h1 {font-family: ubuntu;
+              font-size: 5em;
 padding: 2em 0 1em 0;
 text-align: center;
-color:#FBCD13;
-text-shadow: 1px 4px 13px rgba(150, 150, 150, 0.59);}
+color:black;
+}
 
-          h2 {font-size: 2.25em;
+          h2 {font-family: ubuntu;
+              font-size: 2.25em;
               padding: 2em 0 1em 0;
-text-align: center} 
+text-align: center;
+text-shadow: 4px 4px 4px #aaa;}
 
-          h3 {font-size: 1.5em} 
+ 
+
+          h3 {font-family: ubuntu;
+              font-size: 1.5em} 
 
           h6 {padding: 2em 0 2em 0}
-
 
 header h2 {padding: 1em 0 1em 0;
     font-style: italic;
@@ -55,8 +60,9 @@ header h2 {padding: 1em 0 1em 0;
     
         }
 
-p {color: black;
-    boreder: dotted white;
+p {font-family: ubuntu;
+    color: black;
+    border: dotted white;
     padding: 1.25em;
     margin: 1.5em;
  font-size:1.3em;
@@ -81,12 +87,14 @@ blockquote p {
     padding: 1.5em ;
     font-size: 1.75em;
     line-height:1.25em;
+    background-color: #333;
+    
  
       }
         
 
 blockquote cite {
-    font-size: 1.2em;
+    font-size: .45em;
     
 }
  
@@ -104,23 +112,24 @@ blockquote p {
 
 
 
-hr {overflow:auto;
-    width:140%;
-    margin: 0px -135px 20px;
-    border: 0;
-    border-top: 5px solid rgba(128, 128, 128, 0.7);
-}
-
-.hr-top { overflow:auto;
-    width:140%; 
-    margin: 0px -135px -55px;
-    padding: 0em;
-border-top: 1px solid rgb(666, 666, 666,)}
-
-a {opacity: 0.8;
+a {
   transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;}
+
+
+.intro{font-size: 1.4em;
+color: white}
+
+.album-p {display: inline-block;
+    width: 15em;}
+
+ .bottom {font-family: ubuntu; 
+     background-color: black;
+     width: 100%;
+     padding-right: -8em;
+     padding-left: -8em;
+color:#fbcc13}
   /*---------------------------------NAV--------------------------------------*/
 
 
@@ -128,14 +137,15 @@ nav { position: fixed;
     top: 0;
     left:0;
     width:100%;
-    background-color: black;
+    background-color: #333;
     padding: 20px;
         color:#FBCD13;
     
       }
    
         
-nav ul{ font-size: 1em;
+nav ul{ font-family: ubuntu;
+    font-size: 1em;
              text-align: center;
              text-transform: uppercase;
     
@@ -161,12 +171,23 @@ a {
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
-border-bottom: none}   
+border-bottom: dashed}   
 
-a img{
-    -webkit-transform: scale 1.5 ease-in-out;   
--moz-transition: scale 1.5 ease-in-out;      
--o-transition: scale 1.5 ease-in-out}
+
+
+hr {overflow:auto;
+    width:140%;
+    margin: 0px -135px 20px;
+    border: 0;
+    border-top: 5px solid rgba(128, 128, 128, 0.7);
+}
+
+.hr-top { overflow:auto;
+    width:140%; 
+    margin: 0px -135px -55px;
+    padding: 0em;
+border-top: 1px solid rgb(666, 666, 666,)}
+
 /*------------------------images----------------------------*/
 img {
        max-width:100%;
@@ -174,7 +195,19 @@ img {
        display: block;
        margin: 1em auto;
 }
-    
+
+.mountain{display: inline-block;
+}
+.lou{display: inline-block;}
+.david{display: inline-block;}
+.stones{display: inline-block;}
+
+img:hover {
+    -webkit-transform: scale 1.5 ;   
+-moz-transition: scale 1.5;      
+-o-transition: scale 1.5}
+ 
+
 .rslides {
   position: relative;
   list-style: none;
@@ -229,7 +262,7 @@ article {
 } 
 
 /*----------- SMARTPHONE ----------- */
- @media (max-width: 30em) {
+ @media (max-width: 1.75em) {
     
    body {
     margin: auto 0;
@@ -245,6 +278,7 @@ article {
 h1 {font-size: 2.9em;}   
 
 blockquote p{padding: 0;
+    margin: 0;
 line-height: 1.5em}  
      
 hgroup h2 {font-size: 1.5em;
@@ -252,6 +286,6 @@ padding-top: 0.5em}
      
      
      
-nav ul li {font-size: .75em;
-        margin: 5px}
+nav ul li {font-size: .5em;
+        margin: 1px}
 }
