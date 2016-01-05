@@ -109,7 +109,12 @@ blockquote p {
             text-indent: -0.5em;
 }
 
-
+blockquote p:hover{ color:#FBCD13;
+    -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
 
 
 a {
@@ -122,7 +127,8 @@ a {
 color: white}
 
 .album-p {display: inline-block;
-    width: 15em;}
+    width: ;
+padding: }
 
  .bottom {bottom: 0;
 left:0;
@@ -201,11 +207,6 @@ img {
        margin: 1em auto;
 }
 
-.mountain{display: inline-block;
-}
-.lou{display: inline-block;}
-.david{display: inline-block;}
-.stones{display: inline-block;}
 
 img:hover {
     -webkit-transform: scale 1.5 ;   
@@ -244,8 +245,30 @@ img:hover {
   width: 80%;
   border: 0;
   }
-.social {display: inline-block}
 
+
+.social {display: inline-block}
+.social:hover{opacity: 0.5; 
+    cursor: pointer;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;}
+
+
+.logo{position: fixed;
+top: 3em;
+right:0;}
+.logo:hover{opacity: 0.5}
+
+
+.arrow{opacity: 0.5}
+.arrow:hover{opacity: 1.0;
+ cursor: pointer;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;}
 *------------------ TABLET ----------------------*/
 @media (max-width: 50em) {
     
