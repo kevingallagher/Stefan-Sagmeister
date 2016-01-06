@@ -271,10 +271,13 @@ right:0;}
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;}
-*------------------ TABLET ----------------------*/
 
-@media only screen and (min-device-width : 768px){
-  
+/*------------------ TABLET ----------------------*/
+@media (max-width: 50em) {
+    
+    body {
+        /*background: #333;*/
+    }
     
 article {
     width: 95%;
@@ -287,20 +290,17 @@ article {
     padding: 0;
     max-width: 100%;
     }
+    .bottom{margin:-20px;
+    padding:2em}
+    .social{padding-right: 3em}
 } 
 
 /*----------- SMARTPHONE ----------- */
- @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) 
- {
+ @media (max-width: 30em) {
     
    body {
-        background-image: none
-            ;
     margin: auto 0;
-       background: #c06;
+       /*background: #c06;*/
     width: 100%;
     font-size: 110%;
     }
@@ -309,10 +309,11 @@ article {
     width: 90%;
     } 
 
-h1 {font-size: 2.9em;}   
-
-blockquote p{padding: 0;
-    margin: 0;
+h1 {font-size: 2.9em;}
+     .intro{font-size: 1em}
+     p{font-size: 1em}
+blockquote p{font-size: 1em;
+    padding: 0.75em;
 line-height: 1.5em}  
      
 hgroup h2 {font-size: 1.5em;
@@ -320,6 +321,18 @@ padding-top: 0.5em}
      
      
      
-nav ul li {font-size: .5em;
-        margin: 1px}
+nav ul li {font-size: .75em;
+        margin: 10px;
+     }
+     .rslides{margin:1px ;
+         padding: 0em 0em 0 4em}
+     .bottom{font-size: 1em;
+         padding: 2em;
+     margin:0}
+     .social{transform: scale(0.6);
+     padding:0;
+     margin: 0}
+     .logo{top: 5em;
+     transform:scale(0.75
+     )}
 }
