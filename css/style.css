@@ -136,8 +136,8 @@ left:0;
      font-family: ubuntu; 
      background-color: black;
      width: 100%;
-     padding: 4em 15em 4em 15em;
-     margin-left: -13em;
+     padding: 4em 16em 4em 14.5em;
+     margin-left: -16em;
 color:#fbcc13;
      }
 
@@ -254,7 +254,8 @@ align-content: center}
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
-  transition: all .5s ease-out;}
+  transition: all .5s ease-out;
+}
 
 
 .logo{position: fixed;
@@ -271,11 +272,9 @@ right:0;}
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;}
 *------------------ TABLET ----------------------*/
-@media (max-width: 50em) {
-    
-    body {
-        background: #333;
-    }
+
+@media only screen and (min-device-width : 768px){
+  
     
 article {
     width: 95%;
@@ -291,11 +290,17 @@ article {
 } 
 
 /*----------- SMARTPHONE ----------- */
- @media (max-width: 1.75em) {
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) 
+ {
     
    body {
+        background-image: none
+            ;
     margin: auto 0;
-       /*background: #c06;*/
+       background: #c06;
     width: 100%;
     font-size: 110%;
     }
